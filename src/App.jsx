@@ -9,25 +9,7 @@ function App() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-[#282c34] text-center text-2xl font-bold text-white selection:bg-green-900">
-      <header>
-        <img
-          src={logo}
-          className="animate-speed h-60 motion-safe:animate-spin"
-          alt="logo"
-        />
-        <style>
-          {
-            "\
-            .animate-speed{\
-              animation-duration:20s;\
-            }\
-          "
-          }
-        </style>
-      </header>
-      <main>
-        <Wrapper />
-      </main>
+      <Wrapper />
     </div>
   );
 }
